@@ -1,7 +1,6 @@
 package com.onaar.myapplication;
 
-import androidx.room3.Entity;
-import androidx.room3.PrimaryKey;
+
 
 @Entity(tableName = "gry")
 public class Gra {
@@ -22,5 +21,8 @@ public class Gra {
         this.minLiczbaOsob = minLiczbaOsob;
         this.kategoriaWiekowa = kategoriaWiekowa;
         this.kategoria = kategoria;
+    }
+    public Gra(){
+
     }
 }
